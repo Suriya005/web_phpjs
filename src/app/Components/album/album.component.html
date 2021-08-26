@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="title">
+        <span>Programming Language</span>
+    </div>
+    <div class="grid">
+        <div *ngFor="let image of images;" class="items">
+            <span>{{image.name}}</span>
+            <a href="assets/language-computer/{{image.id}}.png" data-lightbox="image-1" data-title="{{image.name}}">
+                <img src="assets/language-computer/{{image.id}}.png" alt="">
+            </a>
+        </div>
+    </div>
+</div>
